@@ -154,6 +154,7 @@ public class methods {
         }
     }
 
+    @org.jetbrains.annotations.NotNull
     public static int[] getTwoArguments(int len, int initialValue) {
         int [] arr = new int[len];
         for (int i = 0; i < len; i++){
